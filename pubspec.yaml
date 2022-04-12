@@ -1,0 +1,46 @@
+name: asakabank
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  fluid_bottom_nav_bar: 1.3.0
+  table_calendar: ^3.0.5
+  charts_flutter: ^0.12.0
+  fluttertoast: ^8.0.9
+  flutter_svg:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+      - assets/icons/
+      - assets/images/
+
+
+  fonts:
+    - family: Firasansbolditalic
+      fonts:
+        - asset: assets/fonts/Firasansbolditalic.ttf
